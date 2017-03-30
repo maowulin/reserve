@@ -1,0 +1,214 @@
+html{
+	height: 100%;
+}
+body {
+	/*height: 100%;*/
+	background: url("../img/bg.jpg") no-repeat;
+	/*background-size: cover;*/
+}
+
+b {
+	font-weight: 600;
+}
+
+p {
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.head {
+	width: 100%;
+	height: 40px;
+	padding: 20px 0;
+	background: white;
+}
+
+.logo {
+	width: 1024px;
+	height: 100%;
+}
+
+.logo a {
+	float: left;
+}
+
+.logo ul {
+	float: right;
+	height: 100%;
+}
+
+.logo ul li {
+	float: left;
+	width: 100px;
+	height: 20px;
+	margin-top: 10px;
+	line-height: 20px;
+	text-align: center;
+	border-right:1px solid black ;
+	cursor: pointer;
+}
+.logo ul li:nth-child(4) {
+	border: none;
+}
+
+.section {
+	position: relative;
+	height: 693px;
+	
+}
+
+.cont {
+	position: absolute;
+	width: 1024px;
+	height: 500px;
+	left: 50%;
+	top: 50%;
+	margin-left: -512px;
+	margin-top: -250px;
+}
+
+
+
+.cont_enter {
+	float: left;
+	width: 452px;
+	padding: 20px 30px;
+	background: #f8da73;
+}
+
+.cont_enter h4{
+	font-weight: 500;
+}
+
+.enter {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.explain {
+	padding-bottom: 4px;
+	border-bottom: 1px solid #006960;
+}
+
+.highlight {
+	margin-top: 5px;
+	height: 26px;
+}
+
+h5 {
+	padding: 5px 0;
+	border-bottom: 1px solid #006960;
+}
+
+.tal_adr {
+	height: 45px;
+}
+
+.adr {
+	float: right;
+	width: 347px;
+}
+
+.more {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.order {
+	display: none;
+}
+
+.more:hover {
+	color: #006960;
+}
+
+.cont_rese {
+	float: right;
+	width: 452px;
+	height: 460px;
+	padding: 20px 30px;
+	background: #78d0ee;
+}
+.call_me {
+	margin-top: 10px;
+}
+.call_me a {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+}
+
+.call_me a b {
+	font-size: 25px;
+}
+
+.call_me a i {
+	font-size: 20px;
+	margin-right: 5px;
+	color: #f8da73;
+}
+
+form {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.input li {
+	width: 280px;
+	height: 40px;
+	padding: 15px 0 0 0;
+	margin: 0 auto;
+}
+
+.input li i {
+	float: left;
+	line-height: 40px;
+}
+
+.input li:nth-child(1), .input li:nth-child(2), .input li:nth-child(3) {
+	border-bottom: 1px solid white;
+}
+
+.input li:nth-child(4) {
+	height: 100px;
+}
+
+.name, .phone, .email {
+	float: right;
+	width: 240px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	background: transparent;
+}
+
+.massage {
+	border: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
+	border-radius: 8px;
+	
+}
+
+.go {
+	display: block;
+	width: 120px;
+	height: 40px;
+	border-radius: 4px;
+	border: none;
+	background: #0099cc;
+	color: white;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.rese {
+	text-align: center;
+}
+
+
+
+
