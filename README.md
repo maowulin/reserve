@@ -31,9 +31,9 @@
 ># 工作流程
 >>>* 服务器端口号为8888，请保证没有冲突进程存在
 >>>* 项目访问路劲为http://localhost:8888/inde.html
->>>* 请安装nodemailer与nodemailer-smtp-transport，命令如下
-       * `npm install nodemailer`
-       * `npm install nodemailer-smtp-transport` 
+>>>* 请安装nodemailer与nodemailer-smtp-transport，命令如下<br>
+>>>> `npm install nodemailer` <br>
+>>>> `npm install nodemailer-smtp-transport` <br>
 >>>* 配置config中services:"邮箱类型”，uer:"你的邮箱名称"， pass:"邮箱密码/授权码"，授权码获取方式为开启对应邮箱POP3/SMTP服务,生成授权码
 >>>* 在node服务器端运行node server.js, 成功后提示服务器已经在8888端口运行
 >>>* 进入主页，输入姓名，电话号码，邮箱，留言后点击预约，弹出提示框预约成功并跳转至http://m.souke.xdf.cn/ 页面，数据会保存至根目录下userInfo.txt文件中，服务器控制台提示邮件发送成功。
