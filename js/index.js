@@ -23,7 +23,7 @@ if(cWidth < 1100 || cWidth == 1100 ){
 	$(".order").on("click", function(){
 		$(".enter").css({"display" : "none"});
 		$(".cont_rese").css({"display" : "block"});
-		$("#window").scorll();
+		$("html,body").animate({scrollTop:0},1000);//回到顶端
 	});
 	
 	//改变图标
