@@ -3,6 +3,6 @@ module.exports = {
     email: {
         service: 'QQ',
         user: '18829224680@163.com',
-        pass: 'maowulin12345',
+        pass: '', //密码+授权码
     }
 }

@@ -17,7 +17,7 @@ function Rem(temWid){
 }
 
 var cWidth = document.documentElement.clientWidth || document.body.clientWidth;
-if(cWidth < 1023 || cWidth == 1023 ){
+if(cWidth < 1100 || cWidth == 1100 ){
 	Rem(375);
 	
 	$(".order").on("click", function(){
@@ -40,7 +40,7 @@ $(function(){
 		var name = $(".name").val();
 		var phone = $(".phone").val();
 		var email = $(".email").val();
-		if(cWidth < 1023 || cWidth == 1023){
+		if(cWidth < 1100 || cWidth == 1100){
 			if(name == ""){
 				alert("姓名不能为空");
 				return false;
@@ -56,7 +56,7 @@ $(function(){
 				alert("预约成功！");
 				window.open("http://m.souke.xdf.cn/");
 			}
-		}else {
+		}else if(cWidth > 1111) {
 			if(name == ""){
 				alert("姓名不能为空");
 				return false;
