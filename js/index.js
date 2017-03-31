@@ -23,6 +23,7 @@ if(cWidth < 1100 || cWidth == 1100 ){
 	$(".order").on("click", function(){
 		$(".enter").css({"display" : "none"});
 		$(".cont_rese").css({"display" : "block"});
+		$("#window").scorll();
 	});
 	
 	//改变图标
